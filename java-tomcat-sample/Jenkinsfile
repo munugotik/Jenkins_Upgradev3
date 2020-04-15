@@ -2,8 +2,8 @@ pipeline {
     agent any
     stages {
         stage('Build Application') {
-            steps { 
-				sh label: '', script: 'mvn -f java-tomcat-sample/pom.xml clean package'
+            steps {
+                sh 'mvn -f java-tomcat-sample/pom.xml clean package'
             }
             post {
                 success {
