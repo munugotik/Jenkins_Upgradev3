@@ -4,5 +4,7 @@
 
 <p>This is to test auto deploy from Build server</p>
 
+<p>This is to test deploy to Prod by nanual step approval</p>
+
 </body>
 </html>
